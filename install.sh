@@ -2,7 +2,7 @@
 
 INSTALL_DIR="/srv"
 FISH_CONFIG="$HOME/.config/fish/config.fish"
-REPO_URL="https://github.com/small-engineer/chwsl/main/chwsl.fish"
+REPO_URL="https://raw.githubusercontent.com/small-engineer/chwsl/main/chwsl.fish"
 
 echo "[info] Installing chwsl..."
 
