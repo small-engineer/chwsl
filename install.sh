@@ -49,10 +49,12 @@ echo "[info] Downloading chwsl.fish (requires sudo)"
 sudo curl -fsSL "$REPO_URL" -o "$INSTALL_DIR/chwsl.fish"
 
 sudo chmod +x "$INSTALL_DIR/chwsl.fish"
+source ~/.config/fish/config.fish
 
 if ! grep -q "source $INSTALL_DIR/chwsl.fish" "$FISH_CONFIG"; then
     echo "source $INSTALL_DIR/chwsl.fish" | sudo tee -a "$FISH_CONFIG"
     echo "[info] Added chwsl to fish config"
+	source ~/.config/fish/config.fish
 fi
 
 source "$FISH_CONFIG"
