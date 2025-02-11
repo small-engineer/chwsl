@@ -13,6 +13,8 @@ curl -fsSL https://raw.githubusercontent.com/small-engineer/chwsl/main/install.s
 
 ## 🚀 Usage
 
+[![Use Image](https://github.com/small-engineer/chwsl/blob/main/images/image.png)](https://github.com/small-engineer/chwsl/blob/main/images/image.png)
+
 ```sh
 chwsl             # Switch to Windows PowerShell (default)
 chwsl windows     # Switch to Windows PowerShell
