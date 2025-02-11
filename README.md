@@ -36,7 +36,6 @@ sed -i '/source \/srv\/chwsl.fish/d' ~/.config/fish/config.fish
 - **fzf** (installed automatically)
 - **fish** (installed automatically)
 
-🚀 **Seamlessly switch between WSL and Windows with `chwsl`!**
 
 ---
 
@@ -78,5 +77,4 @@ sed -i '/source \/srv\/chwsl.fish/d' ~/.config/fish/config.fish
 - **fzf**（自動インストール）
 - **fish**（自動インストール）
 
-🚀 **`chwsl` で WSL と Windows をシームレスに切り替えましょう！**
 
