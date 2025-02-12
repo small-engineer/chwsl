@@ -7,6 +7,7 @@ With an **interactive selection menu**, you can easily choose a WSL distribution
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/small-engineer/chwsl/main/install.sh | bash
+source ~/.config/fish/config.fish
 ```
 
 🔹 `fzf` and `fish` will be installed automatically.
@@ -50,6 +51,7 @@ sed -i '/source \/srv\/chwsl.fish/d' ~/.config/fish/config.fish
 
 ```sh
 curl -fsSL https://raw.githubusercontent.com/small-engineer/chwsl/main/install.sh | bash
+source ~/.config/fish/config.fish
 ```
 
 🔹 `fzf` と `fish` は自動でインストールされます。
